@@ -1,0 +1,9 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "Java API",
+  "scripts": {
+    "build": "mvn clean package -DskipTests",
+    "start": "java -jar target/user-api-1.0.0.jar"
+  }
+}
