@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: user-api-qa-test
+    env: docker
+    plan: free
+    docker:
+      dockerfile: Dockerfile
+    envVars:
+      - key: PORT
+        value: 8080
